@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="65px" viewBox="0 0 59 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>mindchat_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.7065779%" y1="0%" x2="90.9751902%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFCEE4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M57.5595721,45.2825893 L57.5595721,60.2698084 C57.5595721,63.0585247 55.5454262,64.3194148 53.0080813,63.1456814 C53.0080813,63.1456814 41.270342,56.7496482 29.4880134,56.7496482 L11.4579651,56.7496482 C5.12990572,56.7496482 0,51.6134052 0,45.2825893 L0,11.4670589 C0,5.13397712 5.13332978,0 11.4579651,0 L46.101607,0 C52.4296664,0 57.5595721,5.13624298 57.5595721,11.4670589 L57.5595721,45.2825893 Z" id="path-2"></path>
+        <filter x="-0.9%" y="-0.8%" width="103.5%" height="103.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.896045918   0 0 0 0 0.407770896   0 0 0 0 0.66475775  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mindchat_logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7-Copy-2">
+            <g id="Minchat-logo">
+                <g id="Group-11">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Mask-Copy-47">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                        <path stroke="#FA88C4" stroke-width="0.761201286" d="M57.1789714,60.2698084 L57.1789714,11.4670589 C57.1789714,5.34558117 52.2186053,0.380600643 46.101607,0.380600643 L11.4579651,0.380600643 C5.34239716,0.380600643 0.380600643,5.34531033 0.380600643,11.4670589 L0.380600643,45.2825893 C0.380600643,51.404067 5.34096675,56.3690475 11.4579651,56.3690475 L29.4880134,56.3690475 C34.6931787,56.3690475 40.2490058,57.5772681 45.7962287,59.5898845 C47.7355161,60.2934874 49.5355476,61.0473331 51.1509528,61.8014268 C51.7168798,62.0656094 52.2195289,62.311078 52.6532138,62.5315875 C52.9144823,62.664431 53.0953729,62.759809 53.1678726,62.800249 C55.4579205,63.8595869 57.1789714,62.7752167 57.1789714,60.2698084 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="left-top-neuron" mask="url(#mask-3)" stroke="#FA88C4" stroke-linecap="round" stroke-width="1.89995841">
+                        <g transform="translate(0.547498, 8.729223)">
+                            <path d="M9.14992516,5.53260617 C9.14992516,8.48628514 6.73391674,10.8807921 3.75371528,10.8807921" id="Stroke-13-Copy-63"></path>
+                            <path d="M24.4391865,5.53260617 C24.4391865,2.57892721 26.8551949,0.184420206 29.8353964,0.184420206" id="Stroke-67-Copy-32"></path>
+                            <path d="M24.4391865,5.53260617 C24.4391865,8.48628514 21.9323133,10.8807921 18.8400281,10.8807921 L3.75371528,10.8807921" id="Stroke-13-Copy-64"></path>
+                            <path d="M5.68221227,22.4685284 C2.63021197,22.4685284 0.156242025,19.8746527 0.156242025,16.6745894 C0.156242025,13.4748097 2.63021197,10.8807921 5.68221227,10.8807921 L25.3385548,10.8807921" id="Stroke-31-Copy-50" transform="translate(12.747398, 16.674660) scale(1, -1) rotate(-180.000000) translate(-12.747398, -16.674660) "></path>
+                            <path d="M10.0492935,18.0117068 L14.5908677,18.0344833 C17.1473015,18.0344833 19.2996736,19.9129261 19.9423449,22.4685284" id="Stroke-57-Copy-32" transform="translate(14.995819, 20.240118) scale(-1, -1) translate(-14.995819, -20.240118) "></path>
+                        </g>
+                    </g>
+                    <g id="right-top-neuron" mask="url(#mask-3)" stroke-linecap="round">
+                        <g transform="translate(35.313634, 19.640752)" id="Group-4">
+                            <g>
+                                <path d="M13.0445524,0 C15.7655658,0.296638112 17.9886685,2.79616498 17.9886685,5.79528542 C17.9886685,8.99452674 15.572528,11.5877363 12.5924586,11.5877363" id="Stroke-51-Copy-30" stroke="#FA88C4" stroke-width="1.89995841"></path>
+                                <path d="M5.47498201,6.27412908 C5.47498201,9.22786663 8.03483635,11.6223151 11.1926149,11.6223151 L21.6636117,11.6223151" id="Stroke-63-Copy-63" stroke="#FA88C4" stroke-width="1.89995841"></path>
+                                <path d="M0.0354793889,0.860627627 C3.01573996,0.860627627 5.43168927,3.25507605 5.43168927,6.2088136" id="Stroke-63-Copy-64" stroke="#FA88C4" stroke-width="1.89995841"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="bot-right-neuron" mask="url(#mask-3)" stroke="#FA88C4" stroke-linecap="round" stroke-width="1.89995841">
+                        <g transform="translate(29.838652, 34.644104)">
+                            <path d="M0,5.34818597 C0,2.39444842 2.20612807,-8.63339532e-13 4.92755789,-8.63339532e-13 L26.9810494,-8.57161313e-13" id="Stroke-75-Copy-33" transform="translate(13.490525, 2.674093) scale(1, -1) translate(-13.490525, -2.674093) "></path>
+                            <path d="M20.8563847,17.0435007 C17.8042629,17.0435007 15.3299496,14.4495932 15.3299496,11.2496326 C15.3299496,8.04967191 17.8042629,5.45576442 20.8563847,5.45576442 L27.0217377,5.45576442" id="Stroke-25-Copy-58"></path>
+                        </g>
+                    </g>
+                    <g id="bot-left-neuron" mask="url(#mask-3)" stroke="#FA88C4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.89995841">
+                        <g transform="translate(2.189993, 40.099868)" id="Stroke-35-Copy-36">
+                            <path d="M9.38282246,0.0115262629 C12.4717374,0.0115262629 14.9761262,2.60554378 14.9761262,5.80532351 C14.9761262,9.00538677 12.4717374,11.5992625 9.38282246,11.5992625 L0.13687455,11.5934994"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
