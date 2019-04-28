@@ -65,8 +65,12 @@ const DownloadContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: row-reverse;
-  padding: 17px 15px 0 0;
+  padding: 17px 15px 8px 0;
   height: auto;
+
+  @media all and (max-width: 600px) {
+    justify-content: center;
+  }
 
   .downloadButton {
     height: 45px;
