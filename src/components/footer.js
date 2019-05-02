@@ -38,6 +38,7 @@ const MadeForFunTag = styled.div`
   display: flex;
   flex-direction: row-reverse;
   margin-top:150px;
+  margin-right: 20px;
 
   .tag{
     font-family: futura-pt, sans-serif;
