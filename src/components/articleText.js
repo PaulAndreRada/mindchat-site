@@ -1,16 +1,10 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
-const MainContainer = styled.div`
-  position: relative;
-  display: flex;
-`
-const ArticleTextContainer = styled.div`
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
 
+const ArticleTextContainer = styled.div`
+  width: 380px;
+  margin: 60px auto 0;
 
     .articleTitle {
       display: flex;
@@ -29,7 +23,6 @@ const ArticleTextContainer = styled.div`
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
       font-weight: 300;
       color: #434343;
-      //width: 300px;
     }
 `
 
@@ -38,14 +31,12 @@ const ArticleTextContainer = styled.div`
 class TextCon extends Component{
   render(){
     return(
-      <MainContainer>
         <ArticleTextContainer>
           <div className="articleText">
             <div className="articleTitle">{this.props.title}</div>
             <div className="articleDesc">{this.props.desc}</div>
           </div>
         </ArticleTextContainer>
-      </MainContainer>
     )
   }
 }
