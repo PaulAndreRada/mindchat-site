@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
-const boxShadow = "-webkit-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); -moz-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27);"
+//const boxShadow = "-webkit-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); -moz-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27);"
 
 
 const ArticleContainer = styled.div`
@@ -61,7 +61,7 @@ class Article extends Component {
   render(){
     return(
       <ArticleContainer direction={this.props.direction} containerColor={this.props.containerColor} >
-          <img src={this.props.image}/>
+          <img src={this.props.image} alt="" />
           {this.displayText()}
       </ArticleContainer>
     );

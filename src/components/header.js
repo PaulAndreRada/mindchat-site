@@ -84,7 +84,7 @@ class PageHeader extends Component {
         <div className="headerBlockContainer">
           <div className="blockContainer">
             <div className="logoContainer">
-              <img src={logo}/>
+              <img src={logo} alt=""/>
             </div>
             <div className="titleContainer">
               <Title>MINDCHAT</Title>
@@ -94,7 +94,7 @@ class PageHeader extends Component {
         </div>
         <DownloadContainer>
           <a href="https://itunes.apple.com/us/app/mindchat-messenger/id1161592824?ls=1&mt=8">
-            <img src={download_button} className="downloadButton"/>
+            <img src={download_button} className="downloadButton" alt=""/>
           </a>
         </DownloadContainer>
       </Header>

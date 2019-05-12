@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components';
 
 import notification from '../images/notification.svg';
-const boxShadow = "-webkit-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); -moz-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27);"
+//const boxShadow = "-webkit-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); -moz-box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27); box-shadow: 0px 73px 126px -26px rgba(0,0,0,0.27);"
 
 const Container = styled.div`
   display: flex;
@@ -25,7 +25,7 @@ class ArticleImage extends Component {
     return(
       <Container>
         <div class="rect">
-          <img src={notification} />
+          <img src={notification} alt=""/>
         </div>
       </Container>
     )

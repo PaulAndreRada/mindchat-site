@@ -37,7 +37,7 @@ const Download = styled.a`
 const MadeForFunTag = styled.div`
   display: flex;
   flex-direction: row-reverse;
-  margin-top:150px;
+  padding-top: 150px;
   margin-right: 20px;
 
   .tag{
@@ -71,7 +71,7 @@ class Footer extends Component {
         <ClickHere>Click here to make life easier.</ClickHere>
         <Arrow src={arrow} />
         <Download href="https://itunes.apple.com/us/app/mindchat-messenger/id1161592824?ls=1&mt=8">
-          <img src={download_button} />
+          <img src={download_button} alt="" />
         </Download>
         <MadeForFunTag>
           <div className="tag">Made for fun by <a
