@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>favicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="68.7184648%" y1="53.0626246%" x2="2.7704589%" y2="29.6220285%" id="linearGradient-1">
+            <stop stop-color="#FFCCDF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#DA2E6E" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.312649834,11.3527512 C0.00245708292,5.66152792 4.37429542,1.05921352 10.070058,1.0731762 L40.7490156,1.14838308 L47.0420771,3.76146613 L102,66 L21.5769231,66 L2.58542714,48.3848844 L2.28173811,47.4803556 L0.312649834,11.3527512 Z" id="path-2"></path>
+        <linearGradient x1="17.8104152%" y1="0%" x2="90.8434372%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFCEE4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M51.9564279,40.9867012 L51.9564279,54.5179183 C51.9564279,57.0240872 50.1383493,58.1517997 47.870375,57.100632 C47.870375,57.100632 37.252875,51.3079011 26.6174989,51.3079011 L10.3270381,51.3079011 C4.62357245,51.3079011 0,46.6868671 0,40.9867012 L0,10.3211999 C0,4.62095858 4.61078638,0 10.3270381,0 L41.6293898,0 C47.3328554,0 51.9564279,4.62103397 51.9564279,10.3211999 L51.9564279,40.9867012 Z" id="path-5"></path>
+        <filter x="-1.0%" y="-0.9%" width="103.8%" height="103.5%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.896045918   0 0 0 0 0.407770896   0 0 0 0 0.66475775  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(4.000000, 3.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Shadow" fill-opacity="0.2" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+            <g id="Minchat-logo">
+                <g id="Group-11">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Mask-Copy-47">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-5"></use>
+                        <path stroke="#FA88C4" stroke-width="0.685081139" d="M51.6138873,54.5179183 L51.6138873,10.3211999 C51.6138873,4.81023085 47.1436924,0.34254057 41.6293898,0.34254057 L10.3270381,0.34254057 C4.80440451,0.34254057 0.34254057,4.80569904 0.34254057,10.3211999 L0.34254057,40.9867012 C0.34254057,46.4976702 4.81273548,50.9653605 10.3270381,50.9653605 L26.6174989,50.9653605 C31.3159357,50.9653605 36.3350637,52.0595961 41.3492303,53.8823369 C43.1021503,54.5195553 44.7295456,55.2022744 46.1902884,55.8852161 C46.7020279,56.1244699 47.1565841,56.3467744 47.5488022,56.5464738 C47.785083,56.6667771 47.9486794,56.7531487 48.0144175,56.7898494 C50.0633763,57.7395072 51.6138873,56.7650951 51.6138873,54.5179183 Z" stroke-linejoin="square" fill="url(#linearGradient-4)" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="left-top-neuron" mask="url(#mask-6)" stroke="#FA88C4" stroke-linecap="round" stroke-width="1.70996252">
+                        <g transform="translate(0.494202, 7.892174)">
+                            <path d="M8.25922448,5.00208229 C8.25922448,7.67253177 6.07840272,9.83742851 3.38830937,9.83742851" id="Stroke-13-Copy-63"></path>
+                            <path d="M22.0601506,5.00208229 C22.0601506,2.33163282 24.2409724,0.166736076 26.9310658,0.166736076" id="Stroke-67-Copy-32"></path>
+                            <path d="M22.0601506,5.00208229 C22.0601506,7.67253177 19.7973094,9.83742851 17.0060431,9.83742851 L3.38830937,9.83742851" id="Stroke-13-Copy-64"></path>
+                            <path d="M5.12907657,20.314012 C2.37417364,20.314012 0.141032625,17.968864 0.141032625,15.0756562 C0.141032625,12.1827046 2.37417364,9.83742851 5.12907657,9.83742851 L22.8719698,9.83742851" id="Stroke-31-Copy-50" transform="translate(11.506501, 15.075720) scale(1, -1) rotate(-180.000000) translate(-11.506501, -15.075720) "></path>
+                            <path d="M9.07104367,16.2845568 L13.1705177,16.3051493 C15.4780952,16.3051493 17.4209443,18.0034675 18.0010547,20.314012" id="Stroke-57-Copy-32" transform="translate(13.536049, 18.299284) scale(-1, -1) translate(-13.536049, -18.299284) "></path>
+                        </g>
+                    </g>
+                    <g id="right-top-neuron" mask="url(#mask-6)" stroke-linecap="round">
+                        <g transform="translate(31.876024, 17.757392)" id="Group-4">
+                            <g>
+                                <path d="M11.7747288,0 C14.2308647,0.268193361 16.2375592,2.52803957 16.2375592,5.23957312 C16.2375592,8.13203788 14.0566182,10.4765835 11.3666441,10.4765835" id="Stroke-51-Copy-30" stroke="#FA88C4" stroke-width="1.70996252"></path>
+                                <path d="M4.94201916,5.67250027 C4.94201916,8.34300271 7.25268414,10.5078465 10.1030683,10.5078465 L19.5547645,10.5078465" id="Stroke-63-Copy-63" stroke="#FA88C4" stroke-width="1.70996252"></path>
+                                <path d="M0.0320256431,0.77810169 C2.72217235,0.77810169 4.90294076,2.94294547 4.90294076,5.61344791" id="Stroke-63-Copy-64" stroke="#FA88C4" stroke-width="1.70996252"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="bot-right-neuron" mask="url(#mask-6)" stroke="#FA88C4" stroke-linecap="round" stroke-width="1.70996252">
+                        <g transform="translate(26.934004, 31.322067)">
+                            <path d="M0,4.83534622 C0,2.16484378 1.99137224,-8.6776537e-13 4.44788411,-8.6776537e-13 L24.3545756,-8.62179583e-13" id="Stroke-75-Copy-33" transform="translate(12.177288, 2.417673) scale(1, -1) translate(-12.177288, -2.417673) "></path>
+                            <path d="M18.8261172,15.4091924 C16.0711046,15.4091924 13.8376536,13.0640158 13.8376536,10.1709007 C13.8376536,7.27778556 16.0711046,4.93260893 18.8261172,4.93260893 L24.3913031,4.93260893" id="Stroke-25-Copy-58"></path>
+                        </g>
+                    </g>
+                    <g id="bot-left-neuron" mask="url(#mask-6)" stroke="#FA88C4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.70996252">
+                        <g transform="translate(1.976808, 36.254676)" id="Stroke-35-Copy-36">
+                            <path d="M8.46945037,0.0104210048 C11.2576745,0.0104210048 13.5182732,2.35569712 13.5182732,5.24864866 C13.5182732,8.14185653 11.2576745,10.4870045 8.46945037,10.4870045 L0.123550479,10.481794"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
