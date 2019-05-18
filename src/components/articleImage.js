@@ -15,6 +15,7 @@ const Container = styled.div`
     width: 100%;
     justify-content: center;
     margin: 0 20px;
+    padding: 0 20px;
     border-radius: 6px;
     background: #FB99CD;
   }
