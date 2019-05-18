@@ -34,7 +34,7 @@ const ArticleContainer = styled.div`
       font-weight: 700;
       font-style: normal;
       font-size: 22px;
-      color: #434343;
+      color: #727272;
       margin-bottom: 11px;
     }
 
@@ -53,7 +53,7 @@ class Article extends Component {
       return(
           <div className="articleText">
             <div className="articleTitle">{this.props.title}</div>
-            <div className="articleDesc">{this.props.desc}</div>
+            <div className="articleDesc">{this.props.children}</div>
           </div>
       )
     }
@@ -61,7 +61,7 @@ class Article extends Component {
   render(){
     return(
       <ArticleContainer direction={this.props.direction} containerColor={this.props.containerColor} >
-          <img src={this.props.image} alt="" />
+          {this.props.image?<img src={this.props.image} alt="" />:""}
           {this.displayText()}
       </ArticleContainer>
     );

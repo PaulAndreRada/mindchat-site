@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import download_button from '../images/Download_App_Store_Image.svg';
 import logo from '../images/mindchat_logo.svg';
 
 const Header = styled.div`
@@ -13,6 +12,7 @@ const Header = styled.div`
     display: flex;
     flex-direction: row-reverse;
     flex-grow: 1;
+    margin: 15px 0 0;
   }
 
   .blockContainer{
@@ -61,21 +61,6 @@ const Tagline = styled.div`
   color: #434343;
 `
 
-const DownloadContainer = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 17px 15px 8px 0;
-  height: auto;
-
-  @media all and (max-width: 600px) {
-    justify-content: center;
-  }
-
-  .downloadButton {
-    height: 45px;
-  }
-`
 
 class PageHeader extends Component {
   render(){
@@ -84,7 +69,7 @@ class PageHeader extends Component {
         <div className="headerBlockContainer">
           <div className="blockContainer">
             <div className="logoContainer">
-              <img src={logo} alt=""/>
+              <img src={logo} alt="" />
             </div>
             <div className="titleContainer">
               <Title>MINDCHAT</Title>
@@ -92,11 +77,6 @@ class PageHeader extends Component {
             </div>
           </div>
         </div>
-        <DownloadContainer>
-          <a href="https://itunes.apple.com/us/app/mindchat-messenger/id1161592824?ls=1&mt=8">
-            <img src={download_button} className="downloadButton" alt=""/>
-          </a>
-        </DownloadContainer>
       </Header>
     )
   }

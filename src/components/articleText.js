@@ -34,7 +34,7 @@ class TextCon extends Component{
         <ArticleTextContainer>
           <div className="articleText">
             <div className="articleTitle">{this.props.title}</div>
-            <div className="articleDesc">{this.props.desc}</div>
+            <div className="articleDesc">{this.props.children}</div>
           </div>
         </ArticleTextContainer>
     )
