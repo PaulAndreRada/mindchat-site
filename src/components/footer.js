@@ -14,38 +14,20 @@ const Container = styled.div`
   padding-bottom: 100px;
 `
 
-const ClickHere = styled.div`
-  display: flex;
-  margin: 0px auto;
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 22px;
-  color: #fff;
-  text-align: center;
-`
-
-const Arrow = styled.img`
-  margin: 10px auto;
-`
-
-const Download = styled.a`
-  display: flex;
-  justify-content: center;
-`
-
 const MadeForFunTag = styled.div`
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: center;
   padding-top: 150px;
   margin-right: 20px;
+  z-index: 100;
 
   .tag{
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 22px;
-    color: #ED4DA2;
+    color: #A4286A;
     text-align: center;
   }
 
@@ -54,25 +36,24 @@ const MadeForFunTag = styled.div`
     font-family: futura-pt-bold,sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #ED4DA2;
+    color: #A4286A;
   }
 `
 
 const Sig = styled.img`
   position: absolute;
-  right: 15px;
-  height: 300px;
+  width: 300px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 class Footer extends Component {
   render(){
     return(
       <Container>
-        <ClickHere>Click here to make life easier.</ClickHere>
-        <Arrow src={arrow} />
-        <Download href="https://itunes.apple.com/us/app/mindchat-messenger/id1161592824?ls=1&mt=8">
-          <img src={download_button} alt="" />
-        </Download>
+        <Sig src={signature} />
         <MadeForFunTag>
           <div className="tag">Made for fun by <a
               href="http://www.paulrada.com/"
@@ -81,7 +62,6 @@ class Footer extends Component {
             </a>
           </div>
         </MadeForFunTag>
-        <Sig src={signature} />
       </Container>
     );
   }
